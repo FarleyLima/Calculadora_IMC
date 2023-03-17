@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ecf2ff;
+
+  /* overflow: hidden; */
+}
+
+main section {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Prompt', sans-serif;
+}
+
+.container {
+  width: 450px;
+
+  padding: 30px 15px;
+
+  background-color: #ffffff;
+
+  border: 0px;
+  border-radius: 10px;
+
+  background-color: #f9d423;
+
+  box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .info label {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.sub_title {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+
+label {
+  font-size: 20px;
+  font-weight: 400;
+
+  margin-bottom: 10px;
+}
+
+input[type='number'] {
+  padding: 10px;
+
+  width: 420px;
+
+  outline: 0;
+
+  cursor: pointer;
+
+  border-radius: 8px;
+  border: 1px solid #f9d423;
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+button {
+  width: 420px;
+  padding: 8px 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: #45ada8;
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1c928c;
+  color: #fdfafa;
+
+  transition: 0.5s;
+}
+
+textarea {
+  width: 420px;
+  height: 80px;
+
+  text-align: center;
+  padding: 10px;
+
+  outline: 0;
+  resize: none;
+
+  border-radius: 8px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  border: none;
+
+  background-color: #f9d423;
+}
+
+/* 
+Responsiva 
+*/
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container {
+    width: 300px;
+  }
+
+  input[type='number'] {
+    padding: 10px;
+
+    width: 270px;
+
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  button {
+    width: 270px;
+    padding: 8px 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  textarea {
+    width: 270px;
+  }
+}
