@@ -3,7 +3,7 @@
 Uma simples (porém funcional) calculadora de IMC feita com JavaScript.
 
 <p align="center">
-  <img alt="imagem do Projeto" src="./assets/image/Relogio.gif" width="100%">
+  <img alt="imagem do Projeto" src="./images/imc.gif" width="100%">
 </p>
 
 ## 🚀 Tecnologias
